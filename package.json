@@ -2,7 +2,7 @@
   "name": "nest-mongoose-boilerplate",
   "version": "0.0.1",
   "description": "",
-  "author": "duytm",
+  "author": "npd-starbots",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json",
