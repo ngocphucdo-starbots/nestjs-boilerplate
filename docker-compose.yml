@@ -11,9 +11,10 @@ services:
       - mongo
   mongo:
     image: mongo:latest
+    restart: always
     container_name: mongo
     ports:
-      - "80:80"
+      - 27017:27017
     environment:
       MONGO_INITDB_DATABASE: nest
     volumes:
